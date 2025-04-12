@@ -1,0 +1,45 @@
+
+**Changes**:
+- Renamed from `README.md` to `project-readme.md` to be more specific.
+- Rewritten to maintain the same information but with improved clarity and formatting.
+- Added a project title (“Component Assessment Project”) to align with the `package.json` name.
+- Enhanced the structure with clear headings and concise instructions.
+- Kept links and references intact, ensuring they point to the correct Next.js resources.
+
+---
+
+### 4. File: `package-info.json`
+**Extension**: `.json`
+
+**Purpose**: Defines the project’s metadata, scripts, and dependencies.
+
+**Content**:
+```json
+{
+  "name": "component-assessment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4",
+    "postcss": "^8.5.3",
+    "tailwindcss": "3.4.1",
+    "typescript": "^5"
+  }
+}
