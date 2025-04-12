@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #fef2f2 0%,    /* dark-red-50 */
+    #fee2e2 25%,   /* dark-red-100 */
+    #e5e7eb 75%,   /* deep-gray-200 */
+    #d1d5db 100%   /* deep-gray-300 */
+  );
+  min-height: 100vh;
+}
+
+.container {
+  @apply max-w-full px-4 sm:px-6 lg:px-8;
+}
+
+.frosted-glass {
+  @apply backdrop-blur-lg bg-white/80 rounded-xl shadow-deep;
+}
